@@ -1,0 +1,25 @@
+     <table  width="100%" style="-fs-table-paginate: paginate;">  <!--Definindo o tamanho da tabela e o stributo style que vai tratar a quebra de página da tabela--> 
+                            <thead style="display: table-header-group;"><!--Definindo o cabeçalho como grupo e o guardando-->
+                            <tr>     
+                                <th>Cabeçalho</th>    
+                                <th>Cabeçalho</th>
+                                <th>Cabeçalho</th>   
+                                <th>Cabeçalho</th>
+                                <th>Cabeçalho</th>
+                                <th>Cabeçalho</th>
+                            </tr>
+                            </thead>
+                                <tbody style="display: table-row-group;"><!---->
+                                <tr>        
+                                    <td id="td0">{!produto.quantity}</td>    
+                                    <td id="td0">{!produto.productName}</td>
+                                    <td id="td0">{!produto.nomeTratamento}</td>
+                                    <td id="td0">{!produto.embalagem}</td>
+                                    <td id="td0">{!produto.ubsRetirada}</td>
+                                    <td id="td0">R$ {!produto.unitPrice}</td>
+                                    <td id="td0">R$ {!produto.totalPrice}</td>                                    
+                                    <td id="td0">{!produto.opportunityName}</td>
+                                </tr>      
+                                </tbody>
+                            </apex:repeat>
+                        </table>
